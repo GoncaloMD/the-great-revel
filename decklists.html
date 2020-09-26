@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="styles/decklists-styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Title header -->
+        <header class="title">
+            The Great Revel
+        </header>
+        <!-- Content -->
+        <div id="not-header">
+            <nav class="nav-bar">
+                <ul class="nav-bar-list" id="nav-bar-list">
+                    <!-- Navigation links are put here by nav-links.js -->
+                </ul>
+            </nav>
+            <div class="content">
+                <h1 class="subtitle">
+                    Decklists
+                </h1>
+                <p>
+                    This section is reserved for the different decklists I use, be it my main Boros Burn list, be it some other variation of Burn.
+                </p>
+                <h2>
+                    Classic Boros Burn (updated 2020/09/25)
+                </h2>
+                <div class="decklist">
+                    <div class="mainboard">
+                        <h3>Mainboard</h3>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/goblin-guide.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Goblin Guide</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/monastery-swiftspear.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Monastery Swiftspear</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/eidolon-of-the-great-revel.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Eidolon of the Great Revel</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/lightning-bolt.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Lightning Bolt</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/lava-spike.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Lava Spike</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/rift-bolt.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Rift Bolt</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/skewer-the-critics.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Skewer the Critics</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/boros-charm.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Boros Charm</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/lightning-helix.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Lightning Helix</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/skullcrack.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Skullcrack</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/roiling-vortex.jpg'))" onmouseout="DeckList1CardViewOff(this)">1x Roiling Vortex</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/mountain.jpg'))" onmouseout="DeckList1CardViewOff(this)">3x Mountain</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/inspiring-vantage.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Inspiring Vantage</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/sunbaked-canyon.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Sunbaked Canyon</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/fiery-islet.jpg'))" onmouseout="DeckList1CardViewOff(this)">2x Fiery Islet</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/wooded-foothills.jpg'))" onmouseout="DeckList1CardViewOff(this)">4x Wooded Foothills</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/bloodstained-mire.jpg'))" onmouseout="DeckList1CardViewOff(this)">1x Bloodstained Mire</p>
+                        <p class="card-name" onmouseover="DeckList1CardViewOn(this,String('images/sacred-foundry.jpg'))" onmouseout="DeckList1CardViewOff(this)">2x Sacred Foundry</p>
+                    </div>
+                    <div class="sideboard">
+                        <h3>Sideboard</h3>
+                        <p>3x Path to Exile</p>
+                    </div>
+                    <div class="card-viewer" id="card-viewer-1">
+                        <img class="card-image" id="card-image-1" src="" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="scripts/nav-links.js"></script>
+    <script src="scripts/decklist-card-viewer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+:root{
+    --board-width: 300px;
+    --card-image-width: 300px;
+}
+
+.decklist{
+    display: flex;
+    flex-direction: row;
+    line-height: 5px;
+}
+
+.mainboard{
+    
+    width: var(--board-width);
+}
+
+.sideboard{
+    
+    width: var(--board-width);
+}
+
+.card-image{
+    width: var(--card-image-width);
+}
