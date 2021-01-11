@@ -2,51 +2,46 @@
 
 <html>
     <head>
+        <!-- CSS files -->
         <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
         <!-- Title header -->
-        <header class="title">
-            The Great Revel
-        </header>
-        <!-- Content -->
-        <div id="not-header">
+        <header class="title">The Great Revel</header>
+
+        <!-- Rest of the page -->
+        <div class="not-header">
+            <!-- Navigation Bar -->
             <nav class="nav-bar">
                 <ul class="nav-bar-list" id="nav-bar-list">
                     <!-- Navigation links are put here by nav-links.js -->
                 </ul>
             </nav>
-            <div id="div1" class="content">
-                <h1>
-                    Home
-                </h1>
-                <p>
-                    Welcome to the Great Revel. I'm Bosseidon, and I created this page
-                    in order to share all my Modern Burn knowledge.
-                </p>
-                <h2>
-                    <a class="social-link" href="https://www.twitch.tv/bosseidonred" target="_blank">Twitch</a>
-                </h2>
-                <p>
-                    I regularly stream Magic: The Gathering Online on Twitch, where I try my best
-                    to explain everyone of my ingame decisions.
-                </p>
-                <h2>
-                    <a class="social-link" href="https://www.youtube.com/channel/UCyeMyVHflupyMPKDZoN6IIw" target="_blank">Youtube</a>
-                </h2>
-                <p>
-                    After I stream, I upload all my VOD's to youtube, to permanently save them
-                    for future viewing.
-                </p>
-                <h2>
-                    <a class="social-link" href="https://twitter.com/BosseidonRed" target="_blank">Twitter</a>
-                </h2>
-                <p>
-                    Whenever I start streaming or whenever I 5-0 a league on MTGO,
-                     I post it on my Twitter
-                </p>
+
+            <!-- Content -->
+            <div class="content">
+                <h1 class="page-title">Home</h1>
+                <p>Welcome to the Great Revel. I'm Bosseidon, and I created this page
+                    in order to share all my Modern Burn knowledge.</p>
+
+                <h2>Twitch<a class="social-link" href="https://www.twitch.tv/bosseidonred" target="_blank">
+                    <img class="link-image" src="images/twitch-icon.png"></a></h2>
+                <p>I regularly stream Magic: The Gathering Online on Twitch, where I try my best
+                    to explain everyone of my ingame decisions.</p>
+                
+                <h2>Youtube<a class="social-link" href="https://www.youtube.com/channel/UCyeMyVHflupyMPKDZoN6IIw" target="_blank">
+                    <img class="link-image" src="images/youtube-icon.png"></a></h2>
+                <p>After I stream, I upload all my VOD's to youtube, to permanently save them
+                    for future viewing.</p>
+
+                <h2>Twitter<a class="social-link" href="https://twitter.com/BosseidonRed" target="_blank">
+                    <img class="link-image" src="images/twitter-icon.png"></a></h2>
+                <p>Whenever I start streaming or whenever I 5-0 a league on MTGO,
+                     I post it on my Twitter</p>
             </div>
         </div>
+
+    <!-- Scripts -->
     <script src="scripts/nav-links.js"></script>
     </body>
 </html>

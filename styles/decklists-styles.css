@@ -6,19 +6,37 @@
 .decklist{
     display: flex;
     flex-direction: row;
-    line-height: 5px;
+    line-height: 10px;
+}
+
+.boards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .mainboard{
-    
     width: var(--board-width);
 }
 
 .sideboard{
-    
     width: var(--board-width);
 }
 
 .card-image{
+    margin: 5px;
     width: var(--card-image-width);
+    overflow: hidden;
+}
+
+.card-name{
+    white-space: initial;
+    word-wrap: break-word;
+}
+
+@media (max-width: 900px){
+    .card-image{
+        width: 0; 
+
+    }
 }

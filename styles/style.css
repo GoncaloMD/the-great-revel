@@ -4,10 +4,24 @@
     --nav-width: 200px;
 }
 
+html{
+    /*height: 100%;
+    width: 100%;*/
+}
+
+body{
+    /*height: 100%;*/
+    /*width: 100%;*/
+    background-color: var(--white);
+}
+
+/* Title */
 .title{
     display: block;
     margin: 5px 0px;
+    padding: 0px;
     text-align: center;
+    width: 100%;
 
     font-size: xx-large;
     font-family: cursive;
@@ -16,22 +30,14 @@
     background-color: var(--red);
 }
 
-html{
-    height: 100%;
-}
-
-body{
-    height: 100%;
-
-    background-color: var(--white);
-}
-
-#not-header{
+/*Page*/
+.not-header{
     display: flex;
-
     height: 100%;
+    min-height: 100%;
 }
 
+/*Navigation Bar*/
 .nav-bar-list{
     flex: var(--nav-width);
     display: block;
@@ -65,10 +71,15 @@ body{
     text-decoration: none;
 }
 
+/*Page Content*/
 .content{
     vertical-align: top;
     margin: 0;
     padding: 10px;
+}
+
+.content h1,h2,h3{
+    color: var(--red);
 }
 
 .social-link{
@@ -81,6 +92,28 @@ body{
     text-decoration: none;
 }
 
+.link-image{
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+
 .subtitle{
+    color: var(--red);
+}
+
+.content-header{
+    display: block;
+}
+
+.content-header h1{
+    color: var(--red);
+}
+
+.header-redirection-link{
+    color: var(--red);
+}
+
+.decklist-redirection-link{
     color: var(--red);
 }
