@@ -14,7 +14,7 @@ home.appendChild(homelink);                                         //Append <a>
 navbarlist.appendChild(home);                                       //Append <li> to <ul>
 
 
-/* Make Decklists link*/
+/* Make Decklists link
 var navbarlist = document.body.children[1].children[0].children[0]; //Get <ul> nav-bar-list
 
 var home = document.createElement("li");                            //Create <li> element
@@ -27,7 +27,7 @@ var homelinktext = document.createTextNode("Decklists");            //Create tex
 
 homelink.appendChild(homelinktext);                                 //Append text to <a>
 home.appendChild(homelink);                                         //Append <a> to <li>
-navbarlist.appendChild(home);                                       //Append <li> to <ul>
+navbarlist.appendChild(home);                                       //Append <li> to <ul>*/
 
 /*Make Sideboard Guide link
 var navbarlist = document.body.children[1].children[0].children[0]; //Get <ul> nav-bar-list
@@ -35,16 +35,16 @@ var navbarlist = document.body.children[1].children[0].children[0]; //Get <ul> n
 var home = document.createElement("li");                            //Create <li> element
 
 var homelink = document.createElement("a");                         //Create <a> element
-homelink.href = "burn-cards.html";                             //Add href to <a>
+homelink.href = "burn-cards.html";                                  //Add href to <a>
 homelink.classList.add("nav-link");                                 //Add class to <a>
 
-var homelinktext = document.createTextNode("Burn Cards");      //Create text for <a>
+var homelinktext = document.createTextNode("Burn Cards");           //Create text for <a>
 
 homelink.appendChild(homelinktext);                                 //Append text to <a>
 home.appendChild(homelink);                                         //Append <a> to <li>
-navbarlist.appendChild(home);   
+navbarlist.appendChild(home);                                       //Append <li> to <ul>*/
 
-/* Make Sideboard Guide link
+/* Make Sideboard Guide link*/
 var navbarlist = document.body.children[1].children[0].children[0]; //Get <ul> nav-bar-list
 
 var home = document.createElement("li");                            //Create <li> element
@@ -57,7 +57,7 @@ var homelinktext = document.createTextNode("Sideboard Guide");      //Create tex
 
 homelink.appendChild(homelinktext);                                 //Append text to <a>
 home.appendChild(homelink);                                         //Append <a> to <li>
-navbarlist.appendChild(home);                                       //Append <li> to <ul>*/
+navbarlist.appendChild(home);                                       //Append <li> to <ul>
 
 
 /* Make Maybeboard link
