@@ -3,14 +3,25 @@
     --dark-grey: #2c2c2c;
     --red: #E74545;
     --nav-width: 200px;
+    --title-height: 50px;
 }
 
 html{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'EBGaramond', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
     background-color: var(--white);
+}
+
+.dark-mode{
+    background-color: var(--dark-grey);
+    color: var(--white);
+}
+
+@font-face {
+    font-family: 'EBGaramond';
+    src: url('fonts/adobe-garamond-bold/EBGaramond-Bold.ttf');
 }
 
 /* Title */
@@ -25,6 +36,18 @@ body{
     color: var(--white);
 
     background-color: var(--red);
+
+    position: fixed;
+
+    z-index: 5;
+}
+
+.toggle-dark-mode-button{
+    float: right;
+    margin-right: 20px;
+    top: 50%;
+    -ms-transform: translateY(+50%);
+    transform: translateY(+50%);
 }
 
 /*Page*/
@@ -53,9 +76,14 @@ body{
 
     list-style-type: none;
     margin: 0;
+    margin-top: var(--title-height);
     padding: 0;
 
     background-color: var(--red);
+
+    position: fixed;
+
+    z-index: 1;
 }
 
 .nav-link{
@@ -80,11 +108,15 @@ body{
 
 /*Page Content*/
 .content{
+    position: flex;
     vertical-align: top;
     margin: auto;
+    margin-top: var(--title-height);
     padding: 10px;
     max-width: 600px;
     text-align: justify;
+    height: 100%;
+    z-index: 0;
 }
 
 .content h1,h2,h3{
@@ -108,6 +140,10 @@ body{
 }
 
 .subtitle{
+    color: var(--red);
+}
+
+b{
     color: var(--red);
 }
 
