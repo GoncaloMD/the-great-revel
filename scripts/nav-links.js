@@ -28,7 +28,7 @@ homelink.appendChild(homelinktext);                                 //Append tex
 home.appendChild(homelink);                                         //Append <a> to <li>
 navbarlist.appendChild(home);                                       //Append <li> to <ul>
 
-/* Make Decklists link*/
+/* Make Decklist link*/
 var navbarlist = document.body.children[1].children[0].children[0]; //Get <ul> nav-bar-list
 
 var home = document.createElement("li");                            //Create <li> element
@@ -37,7 +37,7 @@ var homelink = document.createElement("a");                         //Create <a>
 homelink.href = "current-decklist.html";                                   //Add href to <a>
 homelink.classList.add("nav-link");                                 //Add class to <a>
 
-var homelinktext = document.createTextNode("Decklists");            //Create text for <a>
+var homelinktext = document.createTextNode("Decklist");            //Create text for <a>
 
 homelink.appendChild(homelinktext);                                 //Append text to <a>
 home.appendChild(homelink);                                         //Append <a> to <li>
