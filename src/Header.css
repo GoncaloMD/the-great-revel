@@ -1,0 +1,29 @@
+@import "App.css";
+
+.header {
+    text-align: center;
+    /*background: var(--red);*/
+    color:  var(--white);
+
+    font-family: 'EBGaramond';
+    src: url('fonts/adobe-garamond-bold/EBGaramond-ExtraBold.ttf');
+    font-size: xx-large;
+}
+
+.header img{
+    padding-bottom: 5px;
+}
+
+.section {
+    text-align: center;
+    /*background: var(--red);*/
+    color:  var(--white);
+
+    font-family: 'EBGaramond';
+    src: url('fonts/adobe-garamond-bold/EBGaramond-Bold.ttf');
+    font-size: large;
+}
+
+.position {
+    position:absolute;
+}
