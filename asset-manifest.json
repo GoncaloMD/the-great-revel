@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-great-revel/static/css/main.fc7142f4.css",
-    "main.js": "/the-great-revel/static/js/main.9787c8ba.js",
+    "main.js": "/the-great-revel/static/js/main.e9292eb0.js",
     "static/media/EBGaramond-ExtraBold.ttf": "/the-great-revel/static/media/EBGaramond-ExtraBold.72121c88976b05cacd24.ttf",
     "static/media/EBGaramond-Bold.ttf": "/the-great-revel/static/media/EBGaramond-Bold.9318c61bc068d1cdf55b.ttf",
     "static/media/monastery-swiftspear.jpg": "/the-great-revel/static/media/monastery-swiftspear.027e7e56de20d0e8d876.jpg",
@@ -39,10 +39,10 @@
     "static/media/R.png": "/the-great-revel/static/media/R.d8a3e93feaeff100fa23.png",
     "index.html": "/the-great-revel/index.html",
     "main.fc7142f4.css.map": "/the-great-revel/static/css/main.fc7142f4.css.map",
-    "main.9787c8ba.js.map": "/the-great-revel/static/js/main.9787c8ba.js.map"
+    "main.e9292eb0.js.map": "/the-great-revel/static/js/main.e9292eb0.js.map"
   },
   "entrypoints": [
     "static/css/main.fc7142f4.css",
-    "static/js/main.9787c8ba.js"
+    "static/js/main.e9292eb0.js"
   ]
 }
