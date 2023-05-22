@@ -5,12 +5,14 @@ import R from './images/icons/R.png';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
+import { NavItem } from "react-bootstrap";
 
 function Header() {
     return (
         <Navbar bg="danger" expand="lg" fixed="top">
             <Container>
-                <Navbar.Brand href="/the-great-revel">
+                <Navbar.Brand as={Link} to="/">
                     <span className="header">
                     <img 
                         src={R}
@@ -34,11 +36,13 @@ function Header() {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/intro-to-burn">
-                            <span className="section">Intro to Burn</span>
-                        </Nav.Link>
+                        <NavItem eventkey={1} href="/">
+                            <Nav.Link as={Link} to="/intro-to-burn">
+                                <span className="section">Intro to Burn</span>
+                            </Nav.Link>
+                        </NavItem>
 
-                        <Nav.Link href="/sideboard-guide">
+                        <Nav.Link as={Link} to="/sideboard-guide">
                             <span className="section">Sideboard Guide</span>
                         </Nav.Link>
                     </Nav>

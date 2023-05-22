@@ -6,6 +6,7 @@ import Header from './Header';
 import Home from './Home';
 import IntroToBurn from './IntroToBurn';
 import SideboardGuide from './SideboardGuide';
+import NaviBar from './NaviBar';
 
 function App() {
   return (
