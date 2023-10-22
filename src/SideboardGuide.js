@@ -32,7 +32,7 @@ import SmashToSmithereens from "./images/mtg-images/smash-to-smithereens.jpg";
 import WearTear from "./images/mtg-images/wear-tear.jpg";
 import DeflectingPalm from "./images/mtg-images/deflecting-palm.jpg";
 import ExquisiteFirecraft from "./images/mtg-images/exquisite-firecraft.jpg";
-import StrictProctor from "./images/mtg-images/strict-proctor.jpg";
+import PrimsaticEnding from "./images/mtg-images/prismatic-ending.jpg";
 
 function SideboardGuide() {
     return (
@@ -81,7 +81,7 @@ function SideboardGuide() {
 
         <p>
             <CardHover text={"Roiling Vortex: "} image={RoilingVortex}/>
-            the best card I never even wished for, it offers something unique. Althought it's still a bit short of being its more abusive older brother, Roling Vortex offers consistent damage as part of our plan A. It's a hate card you get to play proactively, and puts pressure on the other side just by being there. The one mana it asks you to leave open to actually fulfill its purpose is, more often than not, easy to hold, meaning you still get to be aggressive in your sequencing. It's also typically hard to deal with, what with being an enchantment and all, which means sticking one for the entire game isn't that hard. It also hits all the cascade decks, if you manage to stick one against them. Just make sure to remember that it also hits your own suspended Rift Bolts.
+            the best card I never even wished for, it offers something unique. Althought it's still a bit short of being its more abusive older brother, Roling Vortex offers consistent damage as part of our plan A. It's a hate card you get to play proactively, and puts pressure on the other side just by being there. The one mana it asks you to leave open to actually fulfill its purpose is, more often than not, easy to hold, meaning you still get to be aggressive in your sequencing. It's also typically hard to deal with, what with being an enchantment and all, which means sticking one for the entire game isn't that hard. It also hits all the cascade decks, if you manage to stick one against them. Just make sure to remember that it also hits your own suspended Rift Bolts. Some lists have started to play some in the mainboard, so, as an effort to maintain this guide as adequate for generic use as possible, I will include it in the outs for matchups too.
         </p>
 
         <p>
@@ -129,22 +129,31 @@ function SideboardGuide() {
 
         <p>I typically build my sideboard with a Graveyard hate package, an Anti-lifegain package, a Removal package, and an Artifact hate package. Then the last 3 slots are toss ups. If there isn't any deck that's particularly worrying, I simply include 4th copies of the cards I already have, to further enhance my ability to draw those cards in post board games.</p>
 
+        {/*********************************************************************************************************************************
+        *****MATCHUPS**********************************************************************************************************************
+        *********************************************************************************************************************************/}
+
         <Subtitle text={"Matchups"}/>
         <p>How to interpret the following section: I'm going to talk about each matchup, and then give you a list of cards to cut and to bring in. You'll likely end up with a number of cards different than 60, so what you do is you make cuts/adds according to the smallest number of carda you have, i.e., you count the number of ins you have, and the number of outs you have. Whichever is the lowest, you do that one first, and then do the other one (in order) until you have 60 cards.</p>
 
+        {/******MURKTIDE************************************************************************************************************************/}
         <Subsubtitle text="Izzet Murktide"/>
         <p>There's definitely an amalgamation of words that can describe what a tempo deck is, and even though I don't know what they are, I do know that Izzet Murktide fits it. The deck wants to stick its hyper efficient threats (Ragavan, Dragon's Rage Channeler, Ledger Shredder), typically using counters, and just maintain control of the game with its huge quality of card selection. The deck's namesake card, Murktide Regent, works as an incredibly fast and evasive clock, to round up the threat package.</p>
-        <p>The way to beat them as Burn is to get in the aggressor seat as soon as possible. You want them to be on the defensive, and once they are, you can start looking for windows to get the last points of damage through. This is typically when they tap more mana than they should to establish a threat, but it can also be when they are removing your threats, or when they trade down in mana to counter something. This means that if they lead on creatures, you might have to kill them. A turn 1 Ragavan while you are on the draw is typically something you have to kill, just because it is an amazing clock against us, but a Dragon's Rage Channeler is often worth a Bolt too, just due to the sheer card selection it provides.</p>
+        <p>The way to beat them as Burn is to get in the aggressor seat as soon as possible. You want them to be on the defensive, and once they are, you can start looking for windows to get the last points of damage through. This is typically when they tap more mana than they should to establish a threat, but it can also be when they are removing your threats, or when they trade down in mana to counter something. This means that if they lead on creatures, you might have to kill them. A turn 1 Ragavan while you are on the draw is typically something you have to kill, just because it is an amazing clock against us, but a Dragon's Rage Channeler is often worth a Bolt too, just due to the sheer card selection it provides. Just don't fall into the trap of trying to play the control role in the matchup.</p>
         <p>
             <b>Outs:</b>
             <ul>
                 <li>
-                    <CardHover text={"Skullcrack: "} image={Skullcrack}/>
-                    it's a race and they aren't gaining life, this is just a bad Lava Spike.
+                    <CardHover text={"Roiling Vortex: "} image={RoilingVortex}/>
+                    this isn't a matchup where you want to be taking damage to your own cards, since they can be quite fast at clocking you out of the game.
                 </li>
                 <li>
                     <CardHover text={"Lightning Helix: "} image={LightningHelix}/>
                     it would be a good card in the matchup, but Ragavan stealing it can be too big of a blowout against a deck with counters.
+                </li>
+                <li>
+                    <CardHover text={"Skullcrack: "} image={Skullcrack}/>
+                    it's a race and they aren't gaining life, and while the instant speed is relevant for the matchup, it's still inefficient enough to put it on the chopping block.
                 </li>
                 <li>
                     <CardHover text={"Skewer the Critics: "} image={SkewerTheCritics}/>
@@ -161,16 +170,16 @@ function SideboardGuide() {
                 </li>
                 <li>
                     <CardHover text={"Path to Exile: "} image={PathToExile}/>
-                    takes care of Regent for cheap, and even if it means their next one is easier to put out, that still gives you a lot of time to get the job done.
+                    takes care of Regent for cheap, and even if it means their next one is easier to get out, that still buys quite a bit of time to try and finish them off.
                 </li>
             </ul>
         </p>
 
+        {/******RHINOS************************************************************************************************************************/}
         <Subsubtitle text={"Rhino Cascade"}/>
         <p>Rhino Cascade is built around casting Crashing Footfalls with the use of the Cascade mechanic, because as it turns out, creating 2 4/4's for 3 mana is quite strong at finishing games. There are enough removal options above 3 mana value that can be cast for less (Dead/Gone, Fury, Bonecrusher Giant, Leyline Binding), which allows the deck to be interactive in the first couple of turns, dispite being built to ensure that it cascades into Footfalls. The cherry on top of this deck is Force of Negation, which is played to ensure that no hate pieces get to stick, and/or to generally disrupt their opponents.</p>
-        <p>The plan to beat them is pretty simple: go fast and hard. Their removal lines up pretty well against our creature package, but their mana base is quite bad at casting it into hasty creatures. Force of Negation is quite strong at keeping them alive, but since we play a critical mass deck, it simply means that we need 1 more spell cast to achieve lethal.</p>
-        <p>One thing about this matchup is that if their hand lines up too well against ours, the loss is going to feel crushing. You'll feel as if you had no agency in the game, but that's what it means facing fast unfair decks. Don't take it to heart, you are still favoured in the matchup as a whole. Losses feel crappy.</p>
-        <p>Leyline Binding was the perfect answer for their deck, and it makes our Roiling Vortex feel much less powerful against them. They are going to be playing post board games with a lot of anti-hate (up to 12 pieces), and as such, I think that you shouldn't even try to play Roiling Vortex against them. Since you can realiably beat them with a simple solid Burn hand, making them durdle with dead cards makes our plan A much more reliable.</p>
+        <p>The plan to beat them is pretty simple: go fast and hard. Their removal lines up pretty well against our creature package, but their mana base is quite bad at casting it into hasty creatures. Force of Negation is quite strong at keeping them alive, but since we play a critical mass deck, it simply means that we need to cast 1 more spell to achieve lethal.</p>
+        <p>One thing about this matchup is that if their hand lines up too well against ours, the loss is going to feel crushing. You'll feel as if you had no agency in the game, but that's what it means facing fast unfair decks. Don't take it to heart, you are still favoured in the matchup as a whole. Losses just feel crappy.</p>
 
         <p>
             <b>Outs:</b>
@@ -189,20 +198,21 @@ function SideboardGuide() {
         <p>
             <b>Ins:</b>
             <ul>
+            <li>
+                    <CardHover text={"Roiling Vortex: "} image={RoilingVortex}/>
+                    dispite them having protection against it, this card has a lot of value if it sticks. I probably wouldn't bring it in against the 5 color version of the deck since they are packed with answers for this card, but against the stock temur version, it is very much worth it to bring in.
+                </li>
                 <li>
                     <CardHover text={"Exquisite Firecraft: "} image={ExquisiteFirecraft}/>
                     they will frequently hold on to their Force of Negation until after they cascade into their rhinos, because they need to ensure that no hate pieces come down. Because they are usually low enough in health by that point, having an uncounterable spell that domes them for 4 damage gives you incredible reach to win the game.
                 </li>
-                <li>
-                    <CardHover text={"Roiling Vortex: "} image={RoilingVortex}/>
-                    dispite them having protection against it, this card has a lot of value if it sticks. I want to do an in depth calculation of how much damage this card deals on average in this matchup, but until I have hard numbers under my wing, I'll include it here.
-                </li>
             </ul>
         </p>
 
+        {/******HAMMER************************************************************************************************************************/}
         <Subsubtitle text={"Hammer Time"}/>
-        <p>They have two ways of beating us. Option 1 is just them deploying their combo on the early turns of the game. Either they hit for 10 and you your creatures are now blockers, or they straight up hit you for 20 (or 10 infect damage). Option 2 is them taking it a bit slower, and locking it with shadowspear on a wide board.</p>
-        <p>Creatures are great in this matchup. Because they need to have bodies to hold their equipments, they won't be able to afford to block most times. Eidolon is also a beating, since it will often represent high amounts of damage.</p>
+        <p>They have two ways of beating us. Option 1 is just deploying their combo on the early turns of the game. Either they hit for 10 and you your creatures are now blockers, or they straight up hit you for 20 (or 10 infect damage). Option 2 is them taking it a bit slower, and locking it with shadowspear on a wide board.</p>
+        <p>Creatures are great in this matchup. Because they need to have bodies to hold their equipments, they won't be able to afford to block most times.</p>
         <p>The secret to winning this matchup is understanding what role you should take. Urza's Saga makes it impossible to just assume the control role by default. It represents 3 cards for them, and we just can't compete with that value in an organic way. So, in hands where they are relying on Saga as a win con, you need to be racing. But in hands where they are relying on a fast combo win, you need to disrupt it so you have enough time to win. This can be tricky, because you need to carefuly examine their plans and determine which plan they are on, act from there, and be able to adapt if they try to change gears.</p>
         <p>The game of chicken with Shadowspear is a losing one, but you can minimize how badly it hurts. Don't try to kill the Shadowspeared creature unless they also try to equip it with a Hammer. Getting hit for 1 or 2 Lifelink damage is much less of a problem than having a Bolt denied by Hammer AND getting hit for 11 or 12 Lifelink damage.</p>
         <p>There's also a very cool trick with Path to Exile: if they attempt to equip a creature with a Sigarda's Aid trigger, you can Path the creature even with an open Giver of Runes. The Giver gives Protection from White, which makes the Sigarda's Aid trigger fizzle, making you the overall winner of that situation.</p>
@@ -210,6 +220,10 @@ function SideboardGuide() {
         <p>
             <b>Outs:</b>
             <ul>
+                <li>
+                    <CardHover text={"Roiling Vortex: "} image={RoilingVortex}/>
+                    while they do play some 0 cost cards, they aren't really pressed to play them past Vortex coming down. The anti lifegain is cute against Shadowspear, but this card is slow and expensive, 2 things you do not want in the matchup.
+                </li>
                 <li>
                     <CardHover text={"Lava Spike: "} image={LavaSpike}/>
                     you want to be able to interact with their board whenever it's required, and Lava Spike being a Sorcery means it can get awkward to cast while leaving mana available.
@@ -224,33 +238,34 @@ function SideboardGuide() {
         <p>
             <b>Ins:</b>
             <ul>
+            <li>
+                    <CardHover text={"Deflecting Palm: "} image={DeflectingPalm}/>
+                    the card reads like it would be a bomb against them, but long gone are the days where you cast this card and opponents need to take a quick minute to give it a read. Everyone knows about it, and it's not very hard to play around it if the Hammer players puts you on it. Having said that, since it does line up really well against their faster kills, it's  a very good card to include.
+                </li>
                 <li>
                     <CardHover text={"Smash to Smithereens: "} image={SmashToSmithereens}/>
                     pretty much the best card against them, you get to hit Shadowspear with it if necessary, but also their creatures if you are trying to establish board superiority.
-                </li>
-                <li>
-                    <CardHover text={"Skullcrack: "} image={Skullcrack}/>
-                    unfortunately, because of Shadowspear, you need to run this. Blaking their big lifegain turn is essential in those Urza's Saga hands.
                 </li>
                 <li>
                     <CardHover text={"Wear//Tear: "} image={WearTear}/>
                     in case you are running this card in the side, it has its worth. Shadowspear insurance is needed, and you can also get cheecky with it and destroy their Urza's Saga for a favourable tempo swing.
                 </li>
                 <li>
-                    <CardHover text={"Path to Exile: "} image={PathToExile}/>
-                    a decent card to keep the board in our favour, specially against their pro-White creatures, but a bit too reactive for the matchup, hence why so low on the priority list.
+                    <CardHover text={"Skullcrack: "} image={Skullcrack}/>
+                    unfortunately, because of Shadowspear, you need to run this. Blaking their big lifegain turn is essential in those Urza's Saga hands.
                 </li>
                 <li>
-                    <CardHover text={"Deflecting Palm: "} image={DeflectingPalm}/>
-                    the card reads like it would be a bomb against them, but long gone are the days where you cast this card and opponents need to take a quick minute to give it a read. Everyone knows about it, and it's not very hard to play around it if the Hammer players puts you on it. Still a decent inclusion if you don't have much else, but try not to be obvious about it.
+                    <CardHover text={"Path to Exile: "} image={PathToExile}/>
+                    a decent card to keep the board in our favour, specially against their pro-White creatures, but a bit too reactive for the matchup, hence why so low on the priority list.
                 </li>
             </ul>
         </p>
 
+        {/******HAMMER************************************************************************************************************************/}
         <Subsubtitle text={"UWx Control"}/>
         <p>A classic matchup, it's gotten less and less favourable throughout the years. As it stands, I'd say that the matchup is even, give or take a few percentage points. That's because they've gotten a lot of tools in recent sets, enough that one of the star performers in Eidolon of the Great Revel is actually terrible in the matchup. Between Leyline Binding, Solitude, and Shark Typhoon, they get to consistently remove it without taking any damage, and that's just too much of a tempo swing when playing against a Control deck.</p>
         <p>Their gameplan against us is quite simple: neutralize every threat, stabilize at a high enough health total with counters, and then deploy a wincon while backing it up with more counters. They also play some disruptive pieces, like Teferi, Time Raveler, and sometimes even Chalice of the Void, which helps the stabilize sooner.</p>
-        <p>They way to take this one is to start fast, and then play around their counters by using your instants at key moments, or by accumulating spells and bursting their remaining life points with more spells than they can counter.</p>
+        <p>The way to take this one is to start fast, and then play around their counters by using your instants at key moments, or by accumulating spells and bursting their remaining life points with more spells than they can counter.</p>
         <p>It's a common misconception that Rift Bolt is bad in this matchup. It's not great, but with proper sequencing you can still use it to great effect. Just don't suspend any into a potential Teferi, and you'll be fine. Or, alternatively, do suspend one into a potential Teferi, and bait them into tapping too much mana. Then respond to it with some spells, untap and win the game. A narrow line, but a very cool one to pull off.</p>
         <p>I will not recommend bringing in Roiling Vortex in this matchup. It used to be really good, but they just have too many organic answers for it. A 2 mana value spell dealing 1, or god forbid, 0 damage, is one of the worst things that can happen in this matchup.</p>
         <p>
@@ -266,7 +281,7 @@ function SideboardGuide() {
                 </li>
                 <li>
                     <CardHover text={"Rift Bolt: "} image={RiftBolt}/>
-                    because of the interaction against Teferi, if there are enough good sideboard cards to bring in, cut this. But don't feel forced to cut them all, or any, if you just don't have better things to bring in.
+                    because of the interaction against Teferi, if there are enough good sideboard cards to bring in, you can cut some of these, but you shouldn't bend over backwards to cut them. That said, do note that if they are playing The One Ring, this cards becomes quite a bit worse, and you should really look into cutting every copy of it.
                 </li>
             </ul>
         </p>

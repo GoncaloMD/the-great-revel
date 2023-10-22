@@ -1,0 +1,97 @@
+SB GUIDE
+
+I look at sideboarding in two ways
+	- There are cards that I really want to cut, even if it means bringing in cards that aren't amazing. For example, I'd always cut Searing Blaze against a deck with no creatures, even if it meant bringing in a card that might not be incredible in the matchup.
+	- There are cards that I really want to bring in, even if it means cutting some other generally good cards. For example, in the mirror you want to bring in Deflecting Palm, even if it means you are cutting something like a Lava Spike, because 
+
+SCAM
+	How They Win (HTW):
+
+		- Turn 1 Grief: they blank any board you might hope to build and strip your hand of your best cards, usually removal. Hitting removal asap is critical, but if they follow this up with a good curve, it's just hard to win
+			=> To beat this, it's crucial that you kill the Grief asap. Burn is actually the better deck at doing this, since about half your mainboard spells can do it. This start sets up a control role from us, which means you need to find a window to switch up to being the aggressor, the sooner the better.
+
+		- Turn 1 Fury: you can usually match this with 2 of your cards, but the tempo loss is rough. You also risk getting bricked by a single revive spell from them, which is then enough to seal the deal. Following this up with a good curve also makes it very hard to win.
+			=> This is perhaps their stronger start, since it's actually not that easy to use double removal on turn 2, and by turn 3, you're already in a rough place life total wise. The plan is similar to the Grief start, but you start with 12 life (or the dreaded 4 life if they manage to get 2 swings in).
+
+		- Strong Midrange plan: their midrange plan is actually really good. They run their Ragavan and their 2 drops to pressure you, they run their discard to ensure they trip you up, and they can keep the board favourable pretty easily.
+			=> This side of the deck is why the deck is good, because even when they don't cheese out their big creature, they get to play a very solid midrange plan. For us, though, this is probably the best case scenario. Be careful about their turn 1 Ragavans, since they can race you if your hand isn't particularly fast, but otherwise, go all in on their face. Their top decks are worse than ours, so use that to your advantage and pressure the hell out of them.
+ 
+		Boarding plan: this is a matchup where you really just want to be cutting cards that aren't good from the top of the deck
+			- Out:
+				- Creatures: their deck is built to keep the board in their favour, and their creatures are slippery with menace and shadow. this also gives some stock to them using their revive spells if you are trying to either control the board too much or using combat as removal
+				- Skullcrack: they don't gain life, and this doesn't hit the board.
+
+			- In:
+				- Sanctifier: it's an ok topdeck since it turns off their scam lines as well as blocking half their squad for free, and can then serve as a clock if you are ahead.
+				- Path: takes care of their insane openers
+				- Wear/Tear: kills chalice if they have a chalice hand, and since WOE, their most reliable revive spell is wicked role, meaning that wear/tear becomes a very good way of beating the fury starts (you can kill the aura on 1 turn and the creature on the next, meaning you both take less damage and dont have to double spell in a single turn)
+
+5c Beans (there are different versions of this deck, but they all function the same way, so we play into them the same. the 1 thing that's annoying is that they can play any card in their sideboard)
+	HTW:
+		- They set down Omnath healthy enough for it to make it impossible to kill them. They can do this in multiple ways:
+			- Halfling to speed it up
+				=> you gotta kill it, which usually sucks. Luckily, this could potentially mean your creatures get in for some more damage
+			- TOR to survive turn 4 into omnath
+				=> hard to beat this one, but this card is why you should save your instants to close out the game. Upkeep them if you can, and if one of them is a skullcrack, you get to make omnath only really gain 3 life in its  first turn cycle, which might be enough to close out the game
+			- They use elementals to hold on until they reach turn 5 naturally
+				=> if you lead on 2-3 creatures and they lead on solitude + fury, it's hard to actually have enough damage to win the game by their natural turn 5. if you have a big creature opener, consider playing around fury as much as possible, even if it means missing out on some prowess damage
+
+			- Post board they can also be playing some player hexproof cards, like Leyline of Sanctity or Blossoming Calm, so have those in mind when playing.
+
+		Boarding: most dangerous card is definitely chalice, since an early one will just spell doom
+			- Out:
+				- Searing Blaze: just not good here, even if it has some targets, it isn't killing them, and then it's just a hard to cast expensive lava spike
+
+			- In:
+				- Roiling Vortex: even if they do have removal for it, it's an extra permanent to tax their early game (STILL UNSURE ABOUT THIS ONE, FOR THE SAME REASON IM NOT A HUGE FAN OF EIDOLON IN GENERAL)
+				- Path: killing their first omnath is huge to keep the game in your favour
+				- wear/tear: kills beans chalice and lebinding, so thats enough decent targets
+
+Rhinos
+	HTW:
+		- Turn 3 rhinos + force to keep the clock on their side
+			=> if they have a turn 5 kill with enough disruption to survive, honestly, theres not much you can do. luckily this is not very likely. they take some damage to their mana, they have less good removal against us, and even shardless on turn 3 can be made into a 3 turn clock with a lot of cards.
+
+		Boarding:
+			- Out: 
+				searing blaze: no priority targets
+				skullcrack: they dont gain life
+
+			- In:
+				roiling vortex: not a bomb, but if it sticks the landing, its ok
+				path?: not sure, but taking out a rhino is a big step towards having enough time to kill them
+
+
+Murktide
+	HTW:
+		- This one is difficult to describe
+
+Hammer Time
+	HTW:
+		- Quick combo kill
+			=> similar to storm, you just need to bite the bullet and respect their possibility to combo at any moment
+		- Saga grind
+			=> this is why it's hard to play the control role: a single saga represents 3 cards, which is neigh impossible to overcome. if they are going for that angle though, just race em
+
+	Boarding
+		- Out:
+			- Creatures: since you cant really play the control role vs the saga deck, you are forced to play the "im killing you with spells while also keeping removal up"
+
+		- In:
+			WT: kills stuff
+			Path: kills stuff
+
+Yawggers
+	HTW:
+		- combo
+			=> removal up to avoid losing to the combo
+		- aggro
+			=> with OB, the deck is even better at just aggroing you out
+
+	Boarfing
+		out
+			creatuers
+
+		in
+			path
+			pending because of chalice
