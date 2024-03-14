@@ -18,9 +18,6 @@ import SearingBlaze from "./images/mtg-images/searing-blaze.jpg";
 import LightningHelix from "./images/mtg-images/lightning-helix.jpg";
 import Skullcrack from "./images/mtg-images/skullcrack.jpg";
 import FlameRift from "./images/mtg-images/flame-rift.jpg";
-import PlayWithFire from "./images/mtg-images/play-with-fire.jpg";
-import ReinforcedRonin from "./images/mtg-images/reinforced-ronin.jpg";
-import ShardVolley from "./images/mtg-images/shard-volley.jpg";
 
 import Mountain from "./images/mtg-images/mountain.jpg";
 import InspiringVantage from "./images/mtg-images/inspiring-vantage.jpg";

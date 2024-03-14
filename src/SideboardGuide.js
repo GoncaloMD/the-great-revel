@@ -4,7 +4,6 @@ import Title from "./components/Title";
 import Subtitle from "./components/Subtitle";
 import Subsubtitle from "./components/Subsubtitle";
 import CardHover from "./components/CardHover";
-import { Card } from "react-bootstrap";
 
 import LightningBolt from "./images/mtg-images/lightning-bolt.jpg";
 import LavaSpike from "./images/mtg-images/lava-spike.jpg";
@@ -17,22 +16,19 @@ import BorosCharm from "./images/mtg-images/boros-charm.jpg";
 import EidolonOfTheGreatRevel from "./images/mtg-images/eidolon-of-the-great-revel.jpg";
 import SearingBlaze from "./images/mtg-images/searing-blaze.jpg";
 import LightningHelix from "./images/mtg-images/lightning-helix.jpg";
+import Skullcrack from "./images/mtg-images/skullcrack.jpg";
 import FlameRift from "./images/mtg-images/flame-rift.jpg";
-import PlayWithFire from "./images/mtg-images/play-with-fire.jpg";
-import ReinforcedRonin from "./images/mtg-images/reinforced-ronin.jpg";
-import ShardVolley from "./images/mtg-images/shard-volley.jpg";
 
 import SanctifierEnVec from "./images/mtg-images/sanctifier-en-vec.jpg";
 import RestInPeace from "./images/mtg-images/rest-in-peace.jpg";
 import LeylineOfTheVoid from "./images/mtg-images/leyline-of-the-void.jpg";
 import RoilingVortex from "./images/mtg-images/roiling-vortex.jpg";
-import Skullcrack from "./images/mtg-images/skullcrack.jpg";
 import PathToExile from "./images/mtg-images/path-to-exile.jpg";
 import SmashToSmithereens from "./images/mtg-images/smash-to-smithereens.jpg";
 import WearTear from "./images/mtg-images/wear-tear.jpg";
 import DeflectingPalm from "./images/mtg-images/deflecting-palm.jpg";
 import ExquisiteFirecraft from "./images/mtg-images/exquisite-firecraft.jpg";
-import PrimsaticEnding from "./images/mtg-images/prismatic-ending.jpg";
+import KorFirewalker from "./images/mtg-images/kor-firewalker.jpg";
 
 function SideboardGuide() {
     return (
@@ -516,19 +512,43 @@ function SideboardGuide() {
         <p>
             <b>Outs:</b>
             <ul>
-                <li>Flame Rift: paying mana to ahve both players lose the same life is just asking for a loss in this one.</li>
-                <li>Lava Spike: the lack of flexibility of this spell is just too much here. You need your spells to be able to hit the board, since you can be put in the controller role at a moments notice.</li>
-                <li>Boros Charm: same reasoning as Lava Spike, but I'd cut these second since they represent card advantage, our most important stat in the mirror.</li>
+                <li>
+                    <CardHover text={"Flame Rift: "} image={FlameRift}/>
+                    paying mana to have both players lose the same amount of life is just asking for a loss in this one.
+                </li>
+                <li>
+                    <CardHover text={"Lava Spike: "} image={LavaSpike}/>
+                    the lack of flexibility of this spell is just too much here. You need your spells to be able to hit the board, since you can be put in the controller role at a moments notice.
+                </li>
+                <li>
+                    <CardHover text={"Boros Charm: "} image={BorosCharm}/>
+                    same reasoning as Lava Spike, but I'd cut these second since they represent card advantage, our most important stat in the mirror.
+                </li>
             </ul>
         </p>
         <p>
             <b>Ins:</b>
             <ul>
-                <li>Kor Firewalker: even though you shouldn't run this card, it's most definitely one of the best for the mirror. One thing to be careful about: if you block a Red creature with this and a player casts Skullcrack, the protection from Red can no longer prevent damage, and Kor dies in combat.</li>
-                <li>Deflecting Palm: it works similarly to Helix in this matchup, since it effectively gains you some life while dealing damage to your opponent, and that's always good. Just be careful with Skullcrack, since it stops Palm's damage prevention, and without preventing damage, it also deals none.</li>
-                <li>Skullcrack: blanking a Lightning Helix or sniping a Kor Firewalker when they block with it is a game winning line.</li>
-                <li>Path to Exile: arguably only good if you are sure your opp is on a Protection from Red creature, I like to board them in regardless. It's extra removal to keep your board favourable, so it won't really be a dead card often.</li>
-                <li>Sanctifier-en-Vec: it's a permanent that attacks for 2 every turn and can be used as a roadblock for opponent creatures. Watch out for Skullcrack, just like it was described in the Kor explanation.</li>
+                <li>
+                    <CardHover text={"Kor Firewalker: "} image={KorFirewalker}/>
+                    even though you shouldn't run this card, it's most definitely one of the best for the mirror. One thing to be careful about: if you block a Red creature with this and a player casts Skullcrack, the protection from Red can no longer prevent damage, and Kor dies in combat.
+                </li>
+                <li>
+                    <CardHover text={"Deflecting Palm: "} image={DeflectingPalm}/>
+                    it works similarly to Helix in this matchup, since it effectively gains you some life while dealing damage to your opponent, and that's always good. Just be careful with Skullcrack, since it stops Palm's damage prevention, and without preventing damage, it also deals none.
+                </li>
+                <li>
+                    <CardHover text={"Skullcrack: "} image={Skullcrack}/>
+                    blanking a Lightning Helix or sniping a Kor Firewalker when they block with it is a game winning line.
+                </li>
+                <li>
+                    <CardHover text={"Path to Exile: "} image={PathToExile}/>
+                    arguably only good if you are sure your opp is on a Protection from Red creature, I like to board them in regardless. It's extra removal to keep your board favourable, so it won't really be a dead card often.
+                </li>
+                <li>
+                    <CardHover text={"Sanctifier en-Vec: "} image={SanctifierEnVec}/>
+                    it's a permanent that attacks for 2 every turn and can be used as a roadblock for opponent creatures. Watch out for Skullcrack, just like it was described in the Kor explanation.
+                </li>
             </ul>
         </p>
 
