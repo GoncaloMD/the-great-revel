@@ -339,7 +339,7 @@ function SideboardGuide() {
             <ul>
                 <li>
                     <CardHover text={"Goblin Guide: "} image={GoblinGuide}/>
-                    with Arboral Grazer, Dryad, and Saga tokens, Guide just gets bricked too easily. They also play more than 30 lands, which means Guide is a coinflip on drawing them a card, quite a bit worse than the usual 33%.
+                    with Arboreal Grazer, Dryad, and Saga tokens, Guide just gets bricked too easily. They also play more than 30 lands, which means Guide is a coinflip on drawing them a card, quite a bit worse than the usual 33%.
                 </li>
                 <li>
                     <CardHover text={"Searing Blaze: "} image={SearingBlaze}/>
@@ -347,7 +347,28 @@ function SideboardGuide() {
                 </li>
                 <li>
                     <CardHover text={"Monastery Swiftspear: "} image={MonasterySwiftspear}/>
-
+                    similarly to Guide, it's very easy to have these get bricked by their early plays, but because of Prowess, they don't get killed by Dryad and can get pushed into killing Grazer and getting some extra damage in.
+                </li>
+            </ul>
+        </p>
+        <p>
+            <b>Ins:</b>
+            <ul>
+                <li>
+                    <CardHover text={"Path to Exile: "} image={PathToExile}/>
+                    the extra mana can be an issue, but this is a safety valve in case they find all 3 of their combo pieces. Hitting a Dryad or a Titan in key moments will give you an extra turn, and that can be enough for you to close out the game.
+                </li>
+                <li>
+                    <CardHover text={"Smash to Smithereens: "} image={SmashToSmithereens}/>
+                    thanks to Urza's Saga, they now effectively play 8 copies of Amulet, and this hate piece not only becomes much more important to have, but also much more consistent in dealing damage.
+                </li>
+                <li>
+                    <CardHover text={"Wear//Tear: "} image={WearTear}/>
+                    can kill Dryad, Urza's Saga and Amulet. Target the correct piece, and you can win off of the disruption quite effectively.
+                </li>
+                <li>
+                    <CardHover text={"Skullcrack: "} image={Skullcrack}/>
+                    it's important to stop any life they attempt to gain, as even 1 extra turn for spell will surely spell doom.
                 </li>
             </ul>
         </p>
